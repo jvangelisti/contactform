@@ -1,0 +1,57 @@
+html {
+  background-color: #222222;
+  overflow-x: hidden;
+}
+body {
+  margin: 0 auto;
+}
+.contactform {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5rem;
+	color: white;
+	font-family: Arial;
+	font-size: 1rem;
+}
+.message {
+	text-align: center;
+	margin-top: 1rem;
+}
+.message textarea {
+	width: 20rem;
+}
+.message p {
+	width: 21%;
+	margin: 0 auto .5rem auto;
+	color: white;
+	font-family: Arial;
+	font-size: 1rem;
+	text-align: left;
+}
+.contactsubmit {
+	text-align: center;
+	margin: .5rem 0 1rem 0;
+}
+.contactsubmit button {
+	width: 20.5rem;
+	height: 2rem;
+	margin-top: 1.5rem;
+	font-family: Arial;
+	font-size: 1rem;
+}
+.form {
+	width: 26.5%;
+	margin: 1rem auto 0 auto;
+	padding-bottom: .5rem;
+}
+.contactlabel {
+	list-style:none;
+}
+.contactlabel li {
+	text-align: left;
+	margin: 2rem 0 .5rem 0;
+}
+.contactlabel input {
+	width: 20rem;
+	height: 1.5rem;
+}
