@@ -2,18 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+
 	<title>Contact Form</title>
 </head>
 <body>
-	<section>
-		<ul>
-			<li>Name</li>
-			<li>Address</li>
-			<li>City</li>
-			<li>Phone</li>
-			<li>Email</li>
-			<li>Message</li>
-		</ul>
+	<section class="contactform">
+		<section class="form">
+			<ul class="contactlabel">
+				<li>Name</li>
+				<input type="text">
+				<li>Address</li>
+				<input type="text">
+				<li>City</li>
+				<input type="text">
+				<li>Phone</li>
+				<input class="phone" type="text">
+				<li>Email</li>
+				<input type="text">
+			</ul>
+		</section>
+		<section class="message">
+			<p>Message</p>
+			<textarea name="Message" id="" cols="30" rows="10"></textarea>
+		</section>
+		<section class="contactsubmit">
+			<button class="submit">Submit</button>
+		</section>
 	</section>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
 </body>
 </html>
